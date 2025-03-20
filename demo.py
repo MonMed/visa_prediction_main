@@ -1,3 +1,6 @@
-from us_visa.logger import logging 
+import os 
+from dotenv import load_dotenv
 
-logging.info("Welcome to the custom log")
+load_dotenv()
+MONGODB_URL = os.getenv("MONGODB_URL")
+print(MONGODB_URL)

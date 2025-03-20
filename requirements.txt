@@ -1,5 +1,6 @@
 ipykernel
 setuptools
+python-dotenv
 pandas
 numpy
 matplotlib
